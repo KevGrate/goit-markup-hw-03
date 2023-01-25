@@ -386,3 +386,9 @@ h3 {
   left: 1263px;
   top: 32px;
 }
+.features {
+  width: 1600px;
+  height: 311px;
+  display: flex;
+  padding: 95px 215px 94px 215px;
+}
