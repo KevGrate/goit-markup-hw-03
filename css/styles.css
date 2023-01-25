@@ -89,8 +89,15 @@ h1 {
   text-transform: uppercase;
 
   color: #ffffff;
+  width: 696px;
+  height: 120px;
+  margin: auto;
 }
 .bg {
+  width: 1600px;
+  height: 600px;
+  left: -4px;
+  padding-top: 0px;
   background: #2f303a;
 }
 .service {
@@ -100,11 +107,36 @@ h1 {
   font-size: 16px;
   line-height: 1.87;
   /* identical to box height, or 188% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
 
   color: #ffffff;
 
   background: var(--brand-color);
   border-style: none;
+  width: 261px;
+  height: 50px;
+  border-radius: 4px;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 32px;
+  padding-left: 32px;
+}
+.solutions {
+  margin-top: 0px;
+  padding: 200px 456px 30px 452px;
+  display: flex;
+}
+.serv {
+  margin-top: 0px;
+  margin-left: 670px;
+  margin-right: 669px;
+  margin-bottom: 0px;
+
+  display: flex;
 }
 
 .service :focus {
@@ -310,4 +342,47 @@ h3 {
 
   color: var(--text-color);
   text-decoration: none;
+}
+
+.name {
+  margin-top: 24px;
+  margin-left: 215px;
+}
+
+.cabecera {
+  background: #ffffff;
+  width: 1600px;
+  height: 80px;
+  display: flex;
+}
+.list-nav {
+  display: flex;
+  list-style: none;
+  margin-top: 32px;
+}
+.estudio {
+  margin-top: 32px;
+  padding-left: 93px;
+}
+.portafolio {
+  margin-top: 32px;
+  padding-left: 50px;
+}
+.contactos {
+  margin-top: 32px;
+  padding-left: 50px;
+}
+.email {
+  display: flex;
+  position: absolute;
+  margin: auto;
+  left: 1078px;
+  top: 32px;
+}
+.tele {
+  display: flex;
+  position: absolute;
+  margin: auto;
+  left: 1263px;
+  top: 32px;
 }
