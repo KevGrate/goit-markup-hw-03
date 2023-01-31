@@ -343,6 +343,9 @@ h3 {
   color: var(--text-color);
   text-decoration: none;
 }
+.container {
+  width: 1200px;
+}
 
 .name {
   margin-top: 24px;
@@ -386,9 +389,25 @@ h3 {
   left: 1263px;
   top: 32px;
 }
-.features {
-  width: 1600px;
-  height: 311px;
-  display: flex;
+
+.parra {
+  width: 270px;
+  height: 75px;
+}
+.puntuality {
+  width: 270px;
+  height: 16px;
+  margin-left: 30px;
+}
+.caracteristicas {
+  width: 1170px;
+  height: 122px;
   padding: 95px 215px 94px 215px;
+  display: flex;
+  margin: auto;
+}
+.parra2 {
+  width: 270px;
+  height: 96px;
+  margin-left: 30px;
 }
